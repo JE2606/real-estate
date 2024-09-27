@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --title-font: "Montserrat", sans-serif;
+  --subtitle-font: "Lora", serif;
+  --text-font: "Hind Madurai", sans-serif;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: var(--title-font);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+  font-family: var(--subtitle-font);
+}
+
+p,
+a,
+li,
+ul,
+span,
+input {
+  font-family: var(--text-font);
+}
+
+.border__personalized {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.bg__personalized {
+  background: url('../public/profile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg__listing {
+  background: url('../public/blob.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1040px;
+}
+
+header {
+  height: 4.625em;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: white;
+  color: black;
+  border: 1px solid gray;
+  margin: 0 2.4em;
+  width: 40px;
+  height: 40px;
+  padding: 1em;
+  --swiper-navigation-size: 18px;
+  border-radius: 50%;
+  transition: all .2s ease;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #fd5732;
+    color: #fd5732;
+  }
+}
+
+.bg__hero {
+  position: relative;
+  background: url('../public/hero.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+.arc__div {
+  background-color: #fff;
+  border-radius: 50% 50% 0 0;
+  background: url('../public/hero.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
