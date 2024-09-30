@@ -82,7 +82,7 @@ export default function SignIn() {
             </div>
             <div className="w-1/2 h-full hidden md:block">
                 <video autoPlay loop muted className="w-full h-full object-cover">
-                    <source src="/signin.webm" type="video/mp4" />
+                    <source src="/signin.mp4" type="video/mp4" />
                 </video>
             </div>
         </section>
