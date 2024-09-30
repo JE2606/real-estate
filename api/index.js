@@ -5,7 +5,7 @@ import userRoutes from './routes/user.routes.js';
 import authRoutes from './routes/auth.routes.js';
 import cookieParser from 'cookie-parser';
 import listingRoutes from './routes/listing.routes.js';
-import path from path
+import path from 'path'
 
 dotenv.config();
 
