@@ -45,7 +45,7 @@ export default function Home() {
     return (
         <section>
 
-            <div className="w-full h-dvh flex flex-col items-center justify-between flex-wrap md:flex-row">
+            <div className="w-full h-dvh flex flex-col md:flex-row items-center justify-between">
 
                 <div className="flex flex-col items-center md:items-start max-w-full md:w-[40%] p-4 pt-8 md:pt-0 md:p-12">
 
